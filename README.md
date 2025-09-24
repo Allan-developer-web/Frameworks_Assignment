@@ -1,6 +1,7 @@
 # CORD-19 Metadata Explorer
 
-This project provides an **interactive Streamlit web app** to explore the [CORD-19 dataset](https://www.kaggle.com/allen-institute-for-ai/CORD-19-research-challenge) metadata (`metadata.csv`).  
+This project provides an **interactive Streamlit web app** to explore the [CORD-19 dataset](https://www.kaggle.com/allen-institute-for-ai/CORD-19-research-challenge) metadata (`metadata.csv`). 
+Please download only the metadata.csv file from the CORD-19 dataset
 
 The app loads, cleans, and analyzes the metadata, then allows you to interactively:
 - Filter papers by publication year and journal
@@ -88,5 +89,6 @@ Some records lack abstracts, journals, or dates — cleaning handles these grace
 Frequent words in titles exclude common stopwords and very short tokens.
 
 If you want faster load times, you can sample a subset of rows when loading the CSV.
+
 
 
