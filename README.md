@@ -16,8 +16,8 @@ The app loads, cleans, and analyzes the metadata, then allows you to interactive
 
 ### 1. Clone or download this repo
 ```bash
-git clone <your-repo-url>
-cd <your-repo-folder>
+git clone https://github.com/Allan-developer-web/Frameworks_Assignment.git
+cd frameworks.py
 Download and add metadata.csv to that folder
 
 ### 2. Install dependencies
@@ -90,6 +90,7 @@ Some records lack abstracts, journals, or dates — cleaning handles these grace
 Frequent words in titles exclude common stopwords and very short tokens.
 
 If you want faster load times, you can sample a subset of rows when loading the CSV.
+
 
 
 
